@@ -1,0 +1,69 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Xanh Mono", monospace;
+  background: #272343;
+  color: #bae8e8;
+}
+
+.Weather {
+  font-family: sans-serif;
+  padding: 20px;
+  border: 4px solid #bae8e8;
+  border-radius: 10px;
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
+  color: #bae8e8;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.Weather canvas {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.btn {
+  background-color: #bae8e8;
+  color: #272343;
+}
+
+.btn:hover {
+  background-color: #bae8e8;
+  color: #ffffff;
+}
+
+.clearfix {
+  margin: 0px;
+}
